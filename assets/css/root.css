@@ -12,6 +12,7 @@
     --color-lightwh-: #141313;
     --color-bgcol-: #1D1A1A;
     --color-bgsecondary-: #0C0B0B;
+    --color-bgtertiary-:#FFA800
 }
 
 .fs-14 {
@@ -70,6 +71,9 @@
 
 .color-bg {
     color: var(--color-bgsecondary-);
+}
+.color_ter {
+    color: var(--color-bgtertiary-);
 }
 
 @media (max-width:992px) {

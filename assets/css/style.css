@@ -97,12 +97,12 @@
 .circle_ {
     padding: 19px 32px;
     background-color: var(--color-emphasis-);
-    border: 2px solid #FFA800;
+    border: 2px solid var(--color-bgtertiary-);
     border-radius: 50px;
 }
 
 .box_bl:hover .circle_ {
-    background-color: #FFA800;
+    background-color: var(--color-bgtertiary-);
     color: var(--color-emphasis-);
 }
 
@@ -205,7 +205,7 @@ table {
     content: '';
     position: absolute;
     width: 6px;
-    background-color: white;
+    background-color: var(--color-emphasis-);
     top: 30px;
     bottom: 160px;
     left: 50%;
