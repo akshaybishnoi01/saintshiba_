@@ -179,7 +179,6 @@
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
 }
-
 table {
     border-collapse: collapse;
     width: 100%;
@@ -191,38 +190,45 @@ table {
 
 }
 
-.box_bg02 {
+
+.table_ {
     background-color: var(--color-bgsecondary-);
     /* For browsers that do not support gradients */
-    background-image: linear-gradient(280.21deg, rgba(0, 0, 0, 0.2) -0.59%, rgba(255, 255, 255, 0.092) 106.99%),
+    background: linear-gradient(280.21deg, rgba(0, 0, 0, 0.2) -0.59%, rgba(255, 255, 255, 0.092) 106.99%),
         linear-gradient(94.88deg, rgba(0, 0, 0, 0.1) 0.97%, rgba(255, 255, 255, 0) 103.14%);
+    border-radius: 10px;
+    border-spacing: 0;
+    border-collapse: separate;
+}
+.bg_black {
+    background-color: var(--color-bgsecondary-);
+}
+table tr td:last-child {
     border-right: 1px solid var(--color-bgcol-);
+}
+table tr td:first-child {
     border-left: 1px solid var(--color-bgcol-);
 }
-
-.box_bg03 {
-    background-color: var(--color-bgsecondary-);
-    /* For browsers that do not support gradients */
-    background-image: linear-gradient(280.21deg, rgba(0, 0, 0, 0.2) -0.59%, rgba(255, 255, 255, 0.092) 106.99%),
-        linear-gradient(94.88deg, rgba(0, 0, 0, 0.1) 0.97%, rgba(255, 255, 255, 0) 103.14%);
-    border: 1px solid var(--color-bgcol-);
-    border-top: none;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-    border-radius: 10px;
+table tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
 }
 
-.box_bg02:hover {
-    background-image: none;
-    background-color: var(--color-bgsecondary-);
-
-}
-
-.box_bg03:hover {
-    background-image: none;
-    background-color: var(--color-bgsecondary-);
+table tr:last-child td {
     border-bottom: 1px solid var(--color-bgcol-);
 }
+table tr td:first-child {
+    border-left: 1px solid var(--color-bgcol-);
+}
+table tr:last-child td:last-child {
+    border-bottom-right-radius: 10px;
+}
+table tr:last-child td {
+    border-bottom: 1px solid var(--color-bgcol-);
+}
+table tr td:last-child {
+    border-right: 1px solid var(--color-bgcol-);
+}
+
 
 
 
